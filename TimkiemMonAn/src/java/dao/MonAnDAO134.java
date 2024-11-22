@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package dao;
 
 import model.MonAn134;
@@ -13,10 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-/**
- *
- * @author tutran
- */
 public class MonAnDAO134 {
      public List<MonAn134> getDSMonAnTheoTuKhoa(String tuKhoa)throws  SQLException, ClassNotFoundException{
          List<MonAn134> listMonAn = new ArrayList<>();
